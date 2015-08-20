@@ -508,7 +508,7 @@ $$
 -- exclude this set list of columns if no exclusion list is specified 
 
    SELECT  loader_load_staged_data($1, $2,(SELECT COALESCE(columns_exclude,ARRAY['gid', 'geoid','cpi','suffix1ce', 'statefp00', 'countyfp00', 'tractce00', 'blkgrpce00', 'blockce00', 
-      , 'cousubfp00', 'submcdfp00', 'conctyfp00', 'placefp00', 'aiannhfp00', 'aiannhce00', 
+       'cousubfp00', 'submcdfp00', 'conctyfp00', 'placefp00', 'aiannhfp00', 'aiannhce00', 
        'comptyp00', 'trsubfp00', 'trsubce00', 'anrcfp00', 'elsdlea00', 'scsdlea00', 
        'unsdlea00', 'uace00', 'cd108fp', 'sldust00', 'sldlst00', 'vtdst00', 'zcta5ce00', 
        'tazce00', 'ugace00', 'puma5ce00']) FROM loader_lookuptables WHERE $2 LIKE '%' || lookup_name))
