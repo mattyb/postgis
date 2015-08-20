@@ -1210,7 +1210,7 @@ CREATE TABLE faces
   aiannhfp VARCHAR (5),
   aiannhce VARCHAR (4),
   comptyp VARCHAR (1),
-  trsubfp VARCHAR (5)
+  trsubfp VARCHAR (5),
   trsubce VARCHAR (3),
   anrcfp VARCHAR (5),
   ttractce VARCHAR (6),
