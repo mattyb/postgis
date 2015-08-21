@@ -16,7 +16,7 @@
 -- the PostGIS functions/types which are in public.
 \i utility/set_search_path.sql;
 SELECT tiger.SetSearchPathForInstall('tiger');
-\i tables/lookup_tables_2011.sql
+\i tables/lookup_tables_2015.sql
 \i geocode_settings.sql
 --SET search_path TO tiger,public;
 BEGIN;
